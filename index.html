@@ -86,9 +86,32 @@
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Veja Mais
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="imagens/paisagem_urbana 01.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque officia, placeat id vitae quae eligendi, autem laborum odio quod deserunt ratione impedit, voluptates delectus quo aut! Praesentium eius harum dolorem!</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+
       <div class="col">
         <div class="card">
           <img src="imagens/paisagem_urbana 02.jpeg" class="card-img-top" alt="...">
@@ -98,6 +121,7 @@
           </div>
         </div>
       </div>
+
       <div class="col">
         <div class="card">
           <img src="imagens/paisagem_urbana 03.webp" class="card-img-top" alt="...">
@@ -107,6 +131,7 @@
           </div>
         </div>
       </div>
+
       <div class="col">
         <div class="card">
           <img src="imagens/paisagem_urbana 04.jpg" class="card-img-top" alt="...">
@@ -116,6 +141,7 @@
           </div>
         </div>
       </div>
+
       <div class="col">
         <div class="card">
           <img src="imagens/paisagem_urbana 05.jpg" class="card-img-top" alt="...">
@@ -125,6 +151,7 @@
           </div>
         </div>
       </div>
+
       <div class="col">
         <div class="card">
           <img src="imagens/paisagem_urbana 06.jpg" class="card-img-top" alt="...">
@@ -136,15 +163,48 @@
       </div>
     </div>
 
+    <hr>
     <div class="col-11 m-auto">
       <h2 class="text-center">Meu título</h2>
       <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae, voluptatem perferendis! Minus blanditiis maiores aliquam, natus possimus totam reiciendis, vitae earum pariatur inventore enim. Nostrum et corrupti ea nihil facilis? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur eveniet rem eius nesciunt id ea vitae est! Perferendis voluptas, a necessitatibus laborum maxime nulla inventore iusto eius fugit saepe dolores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eveniet illum placeat porro expedita, sed sit numquam officiis officia? Aperiam aut tempora suscipit totam, omnis ipsum voluptas sed quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis voluptatibus, reprehenderit sapiente suscipit doloribus accusantium molestias harum, dolores quae inventore eaque. Accusamus eligendi quod fugiat eum rerum, atque libero dolore?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum dolor voluptatum alias natus, dicta temporibus consectetur quae tenetur debitis, saepe placeat aut fugiat iste ullam! Optio perferendis pariatur maiores quaerat.</p>
     </div>
+    <hr>
 
+    <footer class="container-fluid page-footer font-small blue p-4" style="background-color: #555555;">
+      <div class="row pt-3" style="width: 150px;">
+        <section class="col-md-5 mb-5">
+          <h5 class="text-white">Contato</h5>
+          <ul class="text-white">
+            <li>
+              <a href="https://web.whatsapp.com/" target="_blank">
+                <i class="fa-brands fa-whatsapp" style="font-size: 50px; color: lightgreen;"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/gwcamargo" target="_blank">
+                <i class="fa-brands fa-github" style="font-size: 50px; color: white;"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/guilherme.william.7773/" target="_blank">
+                <i class="fa-brands fa-facebook" style="font-size: 50px; color: #7795d1;"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/guilhermewcamargo/" target="_blank">
+                <i class="fa-brands fa-instagram" style="font-size: 50px; color: white"></i>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- JQuery first -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </body>
 </html>
